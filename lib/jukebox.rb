@@ -46,7 +46,7 @@ def run
   until input.downcase == "exit"
     puts "Please enter a command:"
     input = gets.strip
-    
+    binding.pry
     case input
       when 'help'
         help
