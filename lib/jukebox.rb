@@ -14,7 +14,7 @@ songs = [
 
 def help
   input = gets.strip
-  if command.downcase == "help"
+  if input.downcase == "help"
     puts "I accept the following commands:"
     puts "- help : displays this help message"
     puts "- list : displays a list of songs you can play"
@@ -35,8 +35,10 @@ end
 def exit_jukebox
 end
 
+=begin
 def run 
   puts "Please enter a command:"
   input = gets.strip
 end 
+=end
 
