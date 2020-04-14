@@ -34,6 +34,7 @@ def play(songs)
       output.push(song)
     end
   end
+  puts "Playing" + output
   puts "Invalid input, please try again"
 end
 
