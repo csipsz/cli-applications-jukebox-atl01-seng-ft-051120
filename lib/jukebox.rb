@@ -32,7 +32,7 @@ def play(songs)
     if choice == song || choice == index + 1
       #binding.pry
       output.push(song)
-      
+      puts "Playing" + output
     end
   end
   puts "Invalid input, please try again"
