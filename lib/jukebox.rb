@@ -11,6 +11,7 @@ songs = [
 ]
 
 puts "Please enter a command:"
+commands = ["help", "play", "list", "exit"]
 command = gets.strip
 
 
