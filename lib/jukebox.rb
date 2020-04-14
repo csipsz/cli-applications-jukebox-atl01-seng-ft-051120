@@ -27,11 +27,13 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   choice = gets.strip
+  output = []
   songs.each_with_index do |song, index| 
     if choice == song || choice == index + 1
-      binding.pry
-      return "Playing #{song}"
+      #binding.pry
+      output.push(song)
     end
+    return ""
   end
   puts "Invalid input, please try again"
 end
