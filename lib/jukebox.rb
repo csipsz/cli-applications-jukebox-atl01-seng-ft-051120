@@ -1,3 +1,4 @@
+require 'pry'
 
 songs = [
   "Phoenix - 1901",
@@ -51,6 +52,7 @@ def run
       when 'list'
         list(songs)
       when 'play'
+        binding.pry
         play(songs)
     end 
   end 
