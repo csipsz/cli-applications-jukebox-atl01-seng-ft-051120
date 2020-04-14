@@ -12,8 +12,9 @@ songs = [
 
 puts "Please enter a command:"
 
+
 def help
-  command = gets.strip
+  
   if command == "help".downcase
     puts "I accept the following commands:"
     puts "- help : displays this help message"
