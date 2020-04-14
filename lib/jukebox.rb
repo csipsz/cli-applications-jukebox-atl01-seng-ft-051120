@@ -28,6 +28,7 @@ def play(songs)
   choice = gets.strip
   songs.each_with_index do |song, index| 
     if choice == song || choice == (index + 1)
+      puts 
       return "Playing" + song
     end
   end
