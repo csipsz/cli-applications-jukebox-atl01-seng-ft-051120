@@ -48,7 +48,9 @@ def run
     case input
     when 'help'
       help
-      
+    when 'list'
+      list(songs)
+    when 
   end 
 end 
 
