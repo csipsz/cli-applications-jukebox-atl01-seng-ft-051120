@@ -52,7 +52,6 @@ def run(songs)
     elsif input.downcase == 'play'
       play(songs)
     end 
-    input
   end 
   exit_jukebox
 end 
@@ -70,7 +69,6 @@ def run(songs)
     when 'play'
       play(songs)
     end 
-    input
   end 
   exit_jukebox
 end 
