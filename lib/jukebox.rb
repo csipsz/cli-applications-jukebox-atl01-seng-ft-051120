@@ -10,10 +10,10 @@ songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
-command = gets.strip
+input = gets.strip
 
 def help
-  
+  input = gets.strip
   if command.downcase == "help"
     puts "I accept the following commands:"
     puts "- help : displays this help message"
