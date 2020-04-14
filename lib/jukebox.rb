@@ -10,7 +10,8 @@ songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
-def help 
+def help
+  command = 
 end 
 
 def play 
