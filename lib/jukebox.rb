@@ -10,10 +10,7 @@ songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
-
-commands = ["help", "play", "list", "exit"]
 command = gets.strip
-
 
 def help
   if command.downcase == "help"
@@ -38,6 +35,6 @@ def exit_jukebox
 end
 
 def run 
-  
+  puts "Please enter a command:"
 end 
 
