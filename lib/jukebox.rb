@@ -11,7 +11,6 @@ songs = [
 ]
 
 def help
-  input = gets.strip
   if input == "help"
     puts "I accept the following commands:"
     puts "- help : displays this help message"
