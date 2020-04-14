@@ -46,12 +46,12 @@ def run
     puts "Please enter a command:"
     input = gets.strip
     case input
-    when 'help'
-      help
-    when 'list'
-      list(songs)
-    when 'play'
-      play(songs)
+      when 'help'
+        help
+      when 'list'
+        list(songs)
+      when 'play'
+        play(songs)
   end 
 end 
 
