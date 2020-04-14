@@ -46,13 +46,14 @@ def run
   until input.downcase == "exit"
     puts "Please enter a command:"
     input = gets.strip
+    
     case input
       when 'help'
         help
       when 'list'
         list(songs)
       when 'play'
-        binding.pry
+        
         play(songs)
     end 
   end 
