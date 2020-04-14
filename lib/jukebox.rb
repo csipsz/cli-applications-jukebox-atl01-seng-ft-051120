@@ -10,8 +10,6 @@ songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
-
-
 def help
   input = gets.strip
   if input.downcase == "help"
