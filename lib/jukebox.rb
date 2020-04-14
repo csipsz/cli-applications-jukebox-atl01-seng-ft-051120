@@ -27,7 +27,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   choice = gets.strip
   songs.each do |song| 
-    if choice == song || choice == song[count]
+    if choice == song
       puts "Playing" + song
     end
   end
