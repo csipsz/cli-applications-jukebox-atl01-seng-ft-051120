@@ -29,7 +29,8 @@ def play(songs)
     if choice == song || choice == index 
       puts "Playing #{song}"
     else 
-      puts 
+      puts "Invalid input, please try again"
+    end
 end
 
 def exit_jukebox
