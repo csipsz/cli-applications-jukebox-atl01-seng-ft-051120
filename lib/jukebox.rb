@@ -50,7 +50,8 @@ def run
       help
     when 'list'
       list(songs)
-    when 
+    when 'play'
+      play(songs)
   end 
 end 
 
