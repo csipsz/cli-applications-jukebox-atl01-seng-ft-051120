@@ -10,6 +10,8 @@ songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
+puts "Please enter your command"
+
 def help
   command = 
 end 
