@@ -1,4 +1,3 @@
-require 'pry'
 
 songs = [
   "Phoenix - 1901",
@@ -27,14 +26,14 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   choice = gets.strip
-  output = []
-  songs.each_with_index do |song, index| 
-    if choice == song || choice == index + 1
-      #binding.pry
-      output.push(song)
+  count = 0 
+  songs.each do |song| 
+    if choice == song || choice == song[count]
+      puts "Playing" + song
+      count += 1 
+  
     end
   end
-  puts "Playing" + output
   puts "Invalid input, please try again"
 end
 
