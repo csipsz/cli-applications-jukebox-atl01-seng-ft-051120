@@ -50,10 +50,10 @@ def run
       when 'help'
         help
       when 'list'
-        list
+        list(songs)
       when 'play'
         binding.pry
-        play
+        play(songs)
     end 
   end 
   exit_jukebox
