@@ -1,3 +1,5 @@
+require 'pry'
+
 songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
@@ -27,6 +29,7 @@ def play(songs)
   choice = gets.strip
   songs.each_with_index do |song, index| 
     if choice == song || choice == index + 1
+      binding.pry
       return "Playing #{song}"
     end
   end
