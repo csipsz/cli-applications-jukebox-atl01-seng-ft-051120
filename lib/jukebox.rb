@@ -14,7 +14,7 @@ puts "Please enter a command:"
 
 
 def help
-  
+  command = gets.strip
   if command.downcase == "help"
     puts "I accept the following commands:"
     puts "- help : displays this help message"
