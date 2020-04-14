@@ -31,7 +31,6 @@ def play(songs)
     if choice == song || choice == song[count]
       puts "Playing" + song
       count += 1 
-  
     end
   end
   puts "Invalid input, please try again"
