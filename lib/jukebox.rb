@@ -10,7 +10,7 @@ songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
-puts "Please enter your command"
+puts "Please enter a command:"
 
 def help
   command = 
