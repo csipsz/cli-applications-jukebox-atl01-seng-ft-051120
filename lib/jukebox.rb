@@ -33,7 +33,7 @@ def play(songs)
       #binding.pry
       output.push(song)
     end
-    return ""
+    return "Playing" + output
   end
   puts "Invalid input, please try again"
 end
