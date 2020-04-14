@@ -10,7 +10,7 @@ songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
-puts "Please enter a command:"
+
 commands = ["help", "play", "list", "exit"]
 command = gets.strip
 
@@ -38,5 +38,6 @@ def exit_jukebox
 end
 
 def run 
+  
 end 
 
