@@ -10,7 +10,7 @@ songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
-input = gets.strip
+
 
 def help
   input = gets.strip
@@ -37,5 +37,6 @@ end
 
 def run 
   puts "Please enter a command:"
+  
 end 
 
