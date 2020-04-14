@@ -26,7 +26,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   choice = gets.strip
   songs.each_with_index do |song, index| 
-    if choice == song || choice == index 
+    if choice == song || choice == index + 1
       puts "Playing #{song}"
     else 
       puts "Invalid input, please try again"
